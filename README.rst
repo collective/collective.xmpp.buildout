@@ -46,6 +46,7 @@ Installation on Mac OS
 Prerequisites:
 
 * Erlang (e.g. ``brew install erlang`` with `homebrew`_)
+* PCRE library (e.g. ``brew install pcre`` with `homebrew`_)
 
 Then use the ``macos.cfg`` buildout configuration (``bin/buildout -c macos.cfg``).
 
