@@ -11,8 +11,8 @@ Introduction
 Currently it includes three XMPP add-ons.
 
 * `collective.xmpp.core`_ which integrates XMPP into Plone (zero user-facing
-"features").
-* `collective.xmpp.collaborate`_ which provides collaborative editing, and 
+  "features").
+* `collective.xmpp.collaborate`_ which provides collaborative editing, and
 * `collective.xmpp.chat`_ which provides instant messaging.
 
 More XMPP add-ons will be adoded as they are being developed for Plone.
@@ -20,7 +20,7 @@ More XMPP add-ons will be adoded as they are being developed for Plone.
 XMPP server and reverse proxy
 =============================
 
-This buildout will also install the '`ejabberd`_ XMPP server and `Nxinx`_ to
+This buildout will also install the '`ejabberd`_ XMPP server and `Nginx`_ to
 serve as a reverse proxy for ejabberd's connection manager (the connection
 manager provides a bridge between the XMPP server and the browser which speaks
 HTTP).
@@ -57,3 +57,4 @@ Then use the ``macos.cfg`` buildout configuration (``bin/buildout -c macos.cfg``
 .. _collective.xmpp.collaborate: http://github.com/collective/collective.xmpp.collaborate
 .. _collective.xmpp.chat: http://github.com/collective/collective.xmpp.chat
 .. _homebrew: http://mxcl.github.com/homebrew/
+.. _nginx: http://nginx.org/
