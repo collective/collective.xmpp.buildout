@@ -48,7 +48,7 @@ the development files of their dependencies.
 
 This is what I needed to install on a fresh(ish) Ubuntu 12.04:
 
-    sudo apt-get install zlib1g-dev erlang lbzip2 libzip-dev libbz2-dev libxml2-dev libxslt-dev libpcre3-dev libexpat1-dev libssl-dev 
+    sudo apt-get install zlib1g-dev erlang libzip2 libzip-dev libbz2-dev libxml2-dev libxslt-dev libpcre3-dev libexpat1-dev libssl-dev 
 
 Installation on Mac OS
 ======================
