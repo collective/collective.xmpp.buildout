@@ -37,7 +37,7 @@ In your buildout folder, after running the buildout, you need to do the followin
 
     ./bin/ejabberdctl register admin localhost your_password
 
-Test that you can access your ejabberd by logging to the admin interface (typically ``http://localhost:5280/admin``). You should also be able to access the ``http-bind`` interface (of the connection manager) at ``http://loalhost:5280/http-bind``.
+Test that you can access your ejabberd by logging to the admin interface (typically ``http://localhost:5280/admin``). You should also be able to access the ``http-bind`` interface (of the connection manager) at ``http://localhost:5280/http-bind``.
 
 
 Installation on Debian/Ubuntu/etc.
