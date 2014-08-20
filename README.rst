@@ -12,7 +12,7 @@ Currently it includes three XMPP add-ons.
 
 * `collective.xmpp.core`_ which integrates XMPP into Plone (zero user-facing
   "features").
-* `collective.xmpp.collaborate`_ which provides collaborative editing, and
+* `collective.xmpp.collaboration`_ which provides collaborative editing, and
 * `collective.xmpp.chat`_ which provides instant messaging.
 
 More XMPP add-ons will be adoded as they are being developed for Plone.
@@ -64,7 +64,7 @@ Then use the ``macos.cfg`` buildout configuration (``bin/buildout -c macos.cfg``
 .. _XMPP: http://xmpp.org
 .. _ejabberd: ejabberd.im
 .. _collective.xmpp.core: http://github.com/collective/collective.xmpp.core
-.. _collective.xmpp.collaborate: http://github.com/collective/collective.xmpp.collaborate
+.. _collective.xmpp.collaboration: http://github.com/collective/collective.xmpp.collaboration
 .. _collective.xmpp.chat: http://github.com/collective/collective.xmpp.chat
 .. _homebrew: http://mxcl.github.com/homebrew/
 .. _nginx: http://nginx.org/
