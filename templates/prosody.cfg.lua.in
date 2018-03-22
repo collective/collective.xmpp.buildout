@@ -94,7 +94,7 @@ modules_disabled = {
 };
 
 daemonize = ${options.daemonize}
-cross_domain_bosh = false
+cross_domain_bosh = true
 pidfile = "${options.pid_file}" -- this is the default on Debian
 
 -- Disable account creation by default, for security
@@ -161,6 +161,9 @@ log = {
 	-- "*syslog"; -- Uncomment this for logging to syslog
     "*console"; -- Log to the console, useful for debugging with daemonize=false
 }
+
+token_secret = "${options.token_secret}"
+otp_seed = "${options.otp_seed}"
 
 ----------- Virtual hosts -----------
 -- You need to add a VirtualHost entry for each domain you wish Prosody to serve.
